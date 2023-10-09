@@ -1,0 +1,84 @@
+@media (max-width:420px){
+    .res-footer{
+        width: 100vw;
+    }
+}
+@media (max-width:850px) {
+.name{
+    background-color: rgb(4, 4, 66);
+    width: 100%;
+    height: 80px;
+    padding-left: 35vw;
+}
+
+.name h2{
+    padding-top: 1.6rem;
+}
+
+footer{
+    display:none;
+}
+.first-box{
+    display: block;
+}
+.res-footer{
+    display: flex;
+    background-color:  rgb(50, 4, 4);
+    height: 11rem;
+    width: 100vw;
+}
+.first-box1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.second-box1 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 4.5vw;
+}
+.res-footer h3{
+    margin-left: 5vw;
+}
+.first-box1 ul li a:hover{
+    font-size: 18px;
+    border: 1px solid white;
+}
+.second-box1 ul li a:hover{
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.third-box1 p{
+    margin-left:-15rem;
+    font-size: 10px;
+    display: flex;
+}
+/* ------------------------- */
+/* --------Main Page ------- */
+/* ------------------------- */
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box .vertical{
+    height: unset;
+}
+.vertical-title, .vertical-desc{
+    left: 45px;
+    width: 50vw;
+}
+.image-top{
+    top: 100px;
+}
+#js{
+    top: 98px;
+}
+#cpp{
+    top: 100px;
+}
+.second-section{
+    height: 150vh;
+}
+
+}

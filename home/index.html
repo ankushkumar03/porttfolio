@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------------------------- -->
+    <!-- ------FAVICON-------------- -->
+    <!-- ---------------------------- -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+    <!-- ---------REMIX ICON CDN----- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+
+
+    <!--CSS FILE LINK_1 -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+    <title>Ankush-WebDeveloper Portfolio</title>
+</head>
+<body>
+    <!-- --------------------------------- -->
+    <!-- --------------HEADER------------- -->
+    <!-- --------------------------------- -->
+    <header>
+        <!-- header for big screen  -->
+        <div class="big-screen">
+        <nav>
+            <i class="ri-menu-line"></i>
+            <div class="left"> Ankush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="/myintro/myintro.html">My Intro</a></li>
+                    <li> <a href="/Blogs/blogs.html">Blogs</a></li>
+                    <li><a href="/services/services.html">Services</a></li>
+                    <li> <a href="/contact/contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- HEADER FOR SMALL SCREEN  -->
+    <div class="small-screen">
+        <div class="name">
+            <h2> Ankush's Portfolio</h2>
+        </div>
+        <div id="navigation">
+            <div id="menu" onclick="onclickmenu()">
+                <div class="small-res">
+                <div id="bar1"  class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="/myintro/myintro.html">MyIntro</a></li>
+                <li><a href="/cv/cv.html">CV</a></li>
+                <li><a href="/Blogs/blogs.html">Blogs</a></li>
+                <li><a href="/services/services.html">services</a></li>
+                <li><a href="/contact/contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+     <!-- ----------------------------- */ -->
+     <!-- -----------MAIN-------------- */ -->
+     <!-- ----------------------------- */ -->
+    <main>
+        <section class="first-section">
+            <div class="left-section"> 
+                   <p>Hi, my name is <span class="purple">Ankush</span> </p> 
+                    <div> And I am a <br> <span class="purple" id="element"></span></div>
+                    <div class="button">
+                        <button class="download-resume"><a href="./assets/my resume.pdf" target="_blank">Download Resume</a></button>
+                        <button class="github-link"><a href="https://github.com/ankushkumar03" target="_blank">GitHub</a></button>
+                    </div>
+            </div>
+            <div class="right-section">
+                <img src="assets/my.png" alt="images">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <div class="heading">
+                <span class="know">What I have know</span>
+            <h1>Skilled I Gain </h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./assets/html.png" alt="html_imaga">
+                    <div class="vertical-title">HTML DEVELOPER</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, odit deleniti? Voluptatem, dolorem! Porro non ex commodi reiciendis quasi. Tempora explicabo reprehenderit deserunt!</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="css" src="./assets/css.png" alt="css-image">
+                    <div class="vertical-title"> CSS DEVELOPER</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fuga repellendus consequuntur. Rerum, nobis ratione? Porro consequuntur voluptates iusto laborum cumque labore voluptatibus.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="js" src="./assets/javascript.png" alt="javascript-img">
+                    <div class="vertical-title" id="js-title">JS DEVELOPER</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, excepturi minus voluptate maiores placeat perspiciatis alias aperiam consectetur consequatur temporibus ex expedita nobis.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="cpp" src="./assets/cpp.png" alt="cpp-img">
+                    <div class="vertical-title" id="cpp-title">CPP DEVELOPER</div>
+                    <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident repellat animi deserunt corrupti perferendis recusandae sunt tenetur nam earum, impedit sint minima at!</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./assets/java.png" alt="java-img">
+                    <div class="vertical-title">JAVA DEVELOPER</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed placeat quaerat facilis. Doloribus numquam voluptatem eaque ipsum fuga quos enim est obcaecati voluptate.</div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- ----------------------------- -->
+        <!-- -------FOOTER--------------- -->
+        <!-- ----------------------------- -->
+        <footer>
+            <div class="flex">
+                <div class="first-box">
+                    <h3>Ankush's Developer Portfolio</h3>
+                </div>
+                <div class="second-box">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li> 
+                        <li><a href="/Blogs/blogs.html">Blogs</a></li>
+                        <li><a href="/services/services.html">Services </a></li>
+                        <li><a href="/contact/contact.html">ContactMe</a></li>
+                    </ul>
+                </div>
+                <div class="third-box">
+                    <p class="text">Social MEdia</p>
+                   <ul>
+                    <li><a href="https://github.com/ankushkumar03" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/ankushkumar03" target="_blank">LinkedIn</a></li>
+                    <li><a href="mailto:ankushkumarmaner03@gmail.com" target="_blank">Email</a></li>
+                    <li><a href="https://instagram.com/akkku_03?utm_source=qr&igshid=OGIxMTE0OTdkZA==" target="_blank">Instagram</a></li>
+                  </ul> 
+                </div>
+                <div class="fourth-box"></div>
+            </div>
+            <div class="copyright">
+                <div class="bottom-text">
+                &copy; 2023-2023 Ankush Developer Portfolio.All rights reserved
+             </div>
+            </div>
+        </footer>
+
+        <!-- footer for responsive -->
+         <section class="res-footer">
+            <h3>Ankush-WebDeveloper Portfolio</h3>
+            <div class="first-box1">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="/myintro/myintro.html">MyIntro</a></li>
+                    <li><a href="/Blogs/blogs.html">Blogs</a></li>
+                    <li><a href="/services/services.html">Services</a></li>
+                    <li><a href="/contact/contact.html">ContactMe</a></li>
+                </ul>
+            </div>
+            <div class="second-box1">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://github.com/ankushkumar03" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/ankushkumar03">LinkedIn</a></li>
+                    <li><a href="mailto:ankushkumarmaner03@gmail.com" target="_blank">Email</a></li>
+                </ul>
+                <br>
+                <div class="third-box1">
+                    <p>&copy; 2023-2023 Ankush Developer Portfolio.All rights reserved</p>
+                 </div>
+            </div>
+        </section>
+    </main>
+<!-- ------------TYPED JS CDN-------------------- -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Graphic</i> Designer.', '&amp; Web Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+  <!-- javascript file link -->
+  <script src="script.js"></script>
+</body>
+</html>
